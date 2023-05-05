@@ -1,14 +1,18 @@
 {
-  "name": "test-publish",
-  "private": true,
-  "version": "0.0.0",
+  "name": "cimk-ui",
+  "version": "0.0.1",
   "type": "module",
+  "main": "cimk-ui/cimk-ui.js",
+  "module": "cimk-ui/cimk-ui.js",
+  "description": "测试发包一个自定义的button",
+  "keywords": ["cimk", "cimk-ui", "cimk", "cimkUI"],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "path": "^0.12.7",
     "vue": "^3.2.47"
   },
   "devDependencies": {

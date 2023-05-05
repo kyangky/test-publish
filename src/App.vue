@@ -1,9 +1,9 @@
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <CsButton />
 </template>
 
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue"
+console.log(123)
 </script>
 
 <style scoped>
